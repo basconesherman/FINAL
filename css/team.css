@@ -1,0 +1,42 @@
+#team-layer-one{
+	width:962px;
+	margin:30px auto;
+	margin-left:8px;
+}
+#team-layer-two{
+	width:975px;
+	margin:0 auto;
+}
+.individual{
+	width:300px;
+	margin-left:37.5px;
+}
+.individual:first-child{margin-left:0;}
+.team-image{
+	width:300px;
+	height:230.93px;
+	display:inline-block;	
+}
+.individual h2{
+	text-align:center;
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:35px;
+	color:#58595B;
+	font-weight:normal;
+	margin-top:15px;
+}
+.individual p#desc{
+	font-size:11px;
+	letter-spacing:2px;
+	text-align:center;
+	font-family:"Spinnaker";
+	margin-top:-20px;
+}
+.individual p{
+	font-family:"Spinnaker";
+	font-size:12px;
+	text-align:justify;
+	color:#58595B;
+	line-height:15px;
+	width:98%;
+}

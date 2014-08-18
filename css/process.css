@@ -1,0 +1,18 @@
+#process-title-caption{
+	font-family:"MrEavesSanOTBook";
+	font-size:20px;
+	text-align:center;
+	margin-top:-60px;
+	letter-spacing:2px;
+}
+#process{
+	width:905px;
+	margin-left:80px;
+	margin-top:-70px;
+}
+#btn_process{
+	width:246px;
+	height:83px;
+	float:right;
+	margin:-10px 154px 20px 0;
+}
