@@ -6,13 +6,21 @@ include('../auth.php');
 	<head>
 		<title>Administrator | Letterpress Business Cards</title>
 		<link type="text/css" rel="stylesheet" href="css/admin.css"/>
-		<link type="text/css" rel="stylesheet" href="../css/layout.css"/>
+		<!-- Meta tags -->
+		<?php include '../lib/meta.php';?>
+		<!-- CSS stylesheets -->
+		<link rel="stylesheet" href="../css/lbc.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../css/navbar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../css/3cols.css" type="text/css" media="screen" />
+		<!-- Javascript files and other animations -->
 		<script src="../js/jquery-1.7.2.min.js"></script>
-		<script src="js/admin-effect.js"></script>
 	</head>
 	<body>
 		<br/><br/>
 		<div class="container">
+			<?php include '../lib/header-user.php';?>
+			<?php include '../lib/navigation.php';?>
+			<div id="after-nav"></div>
 			<div id="admin-header-left">
 				<h2 class="admin-title">&nbsp Administrator</h2>
 				
@@ -69,7 +77,10 @@ include('../auth.php');
 				</center>
 				<br/><br/>
 			</div>
-			<?php include '../library/footer.php';?>
+		</div>
+		<div class="container">
+			<div id="after-nav"></div>
+			<?php include '../lib/footer.php';?>
 		</div>
 	</body>
 </html>
