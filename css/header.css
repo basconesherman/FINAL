@@ -83,3 +83,29 @@
 .hidden-div{
 	width:424px;
 }
+#hello-user{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:22pt;
+	text-align:center;
+	color:white;
+	margin-left:-3px;
+}
+#accnt-btn{
+	width:160px;
+	height:30px;
+	background-image:url('../img/accnt-btn.png');
+	background-size:160px 30px;
+	border:none;
+	cursor:pointer;
+	margin:-10px 0 20px 45px;
+}
+#create{
+	font-family:"Spinnaker";
+	font-size:12pt;
+	color:white;
+	text-align:center;
+	margin:-5px;
+	margin-left:-8px;
+	letter-spacing:2px;
+	cursor:pointer;
+}

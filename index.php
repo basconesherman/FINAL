@@ -1,3 +1,6 @@
+<?php
+setcookie("mail", "", time()-3600);
+?>
 <!DOCTYPE html>
 <html>
 	<title>Letterpress Business Cards | Home/title></title>

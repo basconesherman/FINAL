@@ -1,17 +1,15 @@
 <!-- SESSION SETTING -->
 <?php
-	$reference = $_COOKIE["mail"];
+	$reference = $_COOKIE['mail'];
 	include '../connect.php';
 	
-	$searchEmail = "SELECT * FROM tblclients WHERE email='$reference'";
+	$searchEmail = "SELECT * FROM tbladmins WHERE email='$reference'";
 	$userEmail = mysql_query($searchEmail);
 	
 	while($row = mysql_fetch_array($userEmail)){
 		$user_email = $row['email'];
 		$user_fname = $row['fname'];
 		$user_lname = $row['lname'];
-		$user_shipping = $row['shipping'];
-		$user_city = $row['city'];
 		$user_id = $row['id'];
 	}
 	
@@ -21,6 +19,9 @@
 		$order_id = $row['id'];
 	}
 ?>
+<style>
+
+</style>
 <link rel="stylesheet" href="../css/header.css" type="text/css" media="screen" />
 <!-- Add fancyBox -->
 <link rel="stylesheet" href="../js/fancy/jquery.fancybox.css" type="text/css" media="screen" />
@@ -32,8 +33,8 @@
 	<div class="header">
 		<div id="signin" class="col">
 			<img id="visible-login" src="../img/key.png" alt="key-login-button" />
-			<div id="hidden-login" class="col">
-				
+			<div id="hidden-login">
+				<div id="space"></div>
 					<p id="hello-user">Hello, <?php echo $user_fname;?></p>
 					<a href="home.php"><button id="accnt-btn"></button></a>
 					<a href="../index.php"><p id="create">LOGOUT</p></a>

@@ -16,10 +16,9 @@ include('../auth.php');
 		<script src="../js/jquery-1.7.2.min.js"></script>
 	</head>
 	<body>
-		<br/><br/>
 		<div class="container">
 			<?php include '../lib/header-user.php';?>
-			<?php include '../lib/navigation.php';?>
+			
 			<div id="after-nav"></div>
 			<div id="admin-header-left">
 				<h2 class="admin-title">&nbsp Administrator</h2>
