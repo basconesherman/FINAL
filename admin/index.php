@@ -17,8 +17,7 @@ include('../auth.php');
 	</head>
 	<body>
 		<div class="container">
-			<?php include '../lib/header-user.php';?>
-			
+			<?php include '../lib/header-user.php';?>	
 			<div id="after-nav"></div>
 			<div id="admin-header-left">
 				<h2 class="admin-title">&nbsp Administrator</h2>

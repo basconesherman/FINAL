@@ -1,6 +1,6 @@
 <?php
 include('../auth.php');
-$ses = $_SESSION['SESS_MEMBER_ID'];
+$ses = $_COOKIE['mail'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -8,14 +8,21 @@ $ses = $_SESSION['SESS_MEMBER_ID'];
 		<title>Administrator | Letterpress Business Cards</title>
 		<link type="text/css" rel="stylesheet" href="css/admin.css"/>
 		<link type="text/css" rel="stylesheet" href="css/table.css"/>
-		<link type="text/css" rel="stylesheet" href="../css/layout.css"/>
+		<!-- Meta tags -->
+		<?php include '../lib/meta.php';?>
+		<!-- CSS stylesheets -->
+		<link rel="stylesheet" href="../css/lbc.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../css/navbar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../css/3cols.css" type="text/css" media="screen" />
+		<!-- Javascript files and other animations -->
 		<script src="../js/jquery-1.7.2.min.js"></script>
 		<script src="js/admin-effect.js"></script>
-		<script src="js/application2.js"></script>
+		<script src="js/application.js"></script>
 	</head>
 	<body>
-		<br/><br/>
 		<div class="container">
+			<?php include '../lib/header-user.php';?>
+			<div id="after-nav"></div>
 			<div id="admin-header-left2">
 				<h2 class="admin-title">&nbsp Admin Account Manager</h2>
 				
@@ -85,7 +92,7 @@ $ses = $_SESSION['SESS_MEMBER_ID'];
 				<br/><br/><br/><br/>
 			</div>
 			
-			<?php include '../library/footer.php';?>
+			<?php include '../lib/footer.php';?>
 		</div>
 	</body>
 <script type="text/javascript">

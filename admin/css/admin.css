@@ -1,3 +1,7 @@
+.content-grid {
+	width: 990px;
+	margin: 0 auto;
+}
 h2.medium{
 	font-family:"Heroic Condensed Regular";
 	font-size:32pt;
@@ -168,4 +172,14 @@ input[type=radio]:checked + label .items{
 }
 .edit-order{
 	height:25px;
+}
+#filter{
+	float:right;
+	margin-right:2.2%;
+	width:200px;
+	height:25px;
+	font-size:15px;
+	text-indent:10px;
+	font-style:italic;
+	font-family:"Spinnaker";
 }
