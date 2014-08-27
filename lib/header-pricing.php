@@ -23,7 +23,7 @@
 			</div>
 		</div>
 		<div class="col logo">
-			<a href="index.php"><img src="../img/main_logo.png" alt="Letterpress Business Cards" /></a>
+			<a href="../index.php"><img src="../img/main_logo.png" alt="Letterpress Business Cards" /></a>
 		</div>
 		<div class="col hidden-div"></div>
 	</div>
